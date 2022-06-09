@@ -26,6 +26,12 @@ Add a new gem to your `Gemfile`:
 gem 'omniauth-lokalise'
 ```
 
+You will also probably require the following gem:
+
+```ruby
+gem "omniauth-rails_csrf_protection"
+```
+
 Run:
 
 ```
