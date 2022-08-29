@@ -13,7 +13,7 @@ RSpec.describe OmniAuth::Strategies::Lokalise do
     allow(strat).to receive(:access_token).and_return(access_token)
   end
 
-  context 'client options' do
+  context 'with client options' do
     it 'has correct site' do
       expect(strat.options.client_options.site).to eq('https://app.lokalise.com')
     end
