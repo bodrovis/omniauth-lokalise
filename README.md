@@ -1,6 +1,7 @@
 # Omniauth Lokalise
 
 ![Gem](https://img.shields.io/gem/v/omniauth-lokalise)
+![CI](https://github.com/bodrovis/omniauth-lokalise/actions/workflows/ci.yml/badge.svg)
 
 This is an official OmniAuth strategy for [https://lokalise.com](Lokalise).
 
